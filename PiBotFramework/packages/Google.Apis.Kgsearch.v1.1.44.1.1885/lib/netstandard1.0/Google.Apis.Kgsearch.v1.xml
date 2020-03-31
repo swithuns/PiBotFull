@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Apis.Kgsearch.v1</name>
+    </assembly>
+    <members>
+        <member name="T:Google.Apis.Kgsearch.v1.KgsearchService">
+            <summary>The Kgsearch Service.</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchService.Version">
+            <summary>The API version.</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchService.DiscoveryVersionUsed">
+            <summary>The discovery version used to generate this service.</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.KgsearchService.#ctor">
+            <summary>Constructs a new service.</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.KgsearchService.#ctor(Google.Apis.Services.BaseClientService.Initializer)">
+            <summary>Constructs a new service.</summary>
+            <param name="initializer">The service initializer.</param>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.Features">
+            <summary>Gets the service supported features.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.Name">
+            <summary>Gets the service name.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.BaseUri">
+            <summary>Gets the service base URI.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.BasePath">
+            <summary>Gets the service base path.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.BatchUri">
+            <summary>Gets the batch base URI; <c>null</c> if unspecified.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.BatchPath">
+            <summary>Gets the batch base path; <c>null</c> if unspecified.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchService.Entities">
+            <summary>Gets the Entities resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1">
+            <summary>A base abstract class for Kgsearch requests.</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new KgsearchBaseServiceRequest instance.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.Xgafv">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="T:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.XgafvEnum">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.XgafvEnum.Value1">
+            <summary>v1 error format</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.XgafvEnum.Value2">
+            <summary>v2 error format</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.AccessToken">
+            <summary>OAuth access token.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.Alt">
+            <summary>Data format for response.</summary>
+            [default: json]
+        </member>
+        <member name="T:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.AltEnum">
+            <summary>Data format for response.</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.AltEnum.Media">
+            <summary>Media download with context-dependent Content-Type</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.AltEnum.Proto">
+            <summary>Responses with Content-Type of application/x-protobuf</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.Callback">
+            <summary>JSONP</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and reports.
+            Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary string
+            assigned to a user, but should not exceed 40 characters.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.UploadType">
+            <summary>Legacy upload protocol for media (e.g. "media", "multipart").</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.UploadProtocol">
+            <summary>Upload protocol for media (e.g. "raw", "multipart").</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.KgsearchBaseServiceRequest`1.InitParameters">
+            <summary>Initializes Kgsearch parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.Kgsearch.v1.EntitiesResource">
+            <summary>The "entities" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Kgsearch.v1.EntitiesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.EntitiesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.EntitiesResource.Search">
+            <summary>Searches Knowledge Graph for entities that match the constraints. A list of matched entities will
+            be returned in response, which will be in JSON-LD format and compatible with http://schema.org</summary>
+        </member>
+        <member name="T:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest">
+            <summary>Searches Knowledge Graph for entities that match the constraints. A list of matched entities will
+            be returned in response, which will be in JSON-LD format and compatible with http://schema.org</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new Search request.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Ids">
+            <summary>The list of entity id to be used for search instead of query string. To specify multiple ids in
+            the HTTP request, repeat the parameter in the URL as in ...?ids=A=B</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Indent">
+            <summary>Enables indenting of json results.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Languages">
+            <summary>The list of language codes (defined in ISO 693) to run the query with, e.g. 'en'.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Limit">
+            <summary>Limits the number of entities to be returned.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Prefix">
+            <summary>Enables prefix match against names and aliases of entities</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Query">
+            <summary>The literal query string for search.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.Types">
+            <summary>Restricts returned entities with these types, e.g. Person (as defined in
+            http://schema.org/Person). If multiple types are specified, returned entities will contain one or more
+            of these types.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Kgsearch.v1.EntitiesResource.SearchRequest.InitParameters">
+            <summary>Initializes Search parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.Kgsearch.v1.Data.SearchResponse">
+            <summary>Response message includes the context and a list of matching results which contain the detail of
+            associated entities.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.Data.SearchResponse.Context">
+            <summary>The local context applicable for the response. See more details at http://www.w3.org/TR/json-ld
+            /#context-definitions.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.Data.SearchResponse.Type">
+            <summary>The schema type of top-level JSON-LD object, e.g. ItemList.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.Data.SearchResponse.ItemListElement">
+            <summary>The item list of search results.</summary>
+        </member>
+        <member name="P:Google.Apis.Kgsearch.v1.Data.SearchResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+    </members>
+</doc>

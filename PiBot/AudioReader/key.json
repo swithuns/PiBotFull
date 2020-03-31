@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "seraphic-port-272323",
+  "private_key_id": "82a46562d7c25774655afc0d3a94e4382c386cb5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvvi8nO8riJOFw\nmaLBTpMC2rxnXGSqSQ9GS0jBOabGVxsA4qjBjSXMLdtxj+IEQC69qkEVZBVGctxh\npXksbyrbtddVxDgHB3IspKqk1I533LrDuw80XWULtDAUPvlkGSwdzKSeF33tWhxB\nCIp6cOPt8ccEGbQniuOz3fPxiX10FMOdsyKH6nrmwAJ5RVu7jEmIQ9XRGDXkj2YW\ntzfHnrldeLevnRhW6Q0i6dktpmXJPcKGQVFIhot7wFD93kRdinsoHH0UGiQt1KTF\neR+CU5v34Og5r10616CnZ30cTwBv1qTZJfz8x/tqcu1c+gu+V5/C1dkuqNlP3pU6\nnhOs+lRhAgMBAAECggEAC8AtqvPmhuRsZnj/VumIDuLNQiP9Xx1vdgXGoZTXP9/H\nIHIHUpm7c0GFsLwsIpigB3KA04tTmNhJQAYuafgs52/rLALotB+dVLrV5huIQx9x\nJXE2fQvZm8S6ikADsNu2BXAPebqcYuhphzeo+rLdqqVF51JIp3Qz8WzfyMCmsMIt\n9wCalMV28m5chgex5owwCRWBzBvYlihu6zy90nwcp1BEObH17xpFbMCZ85HiOgj1\nUYiPX7qguOCxb4uDR1B14iVzk8vOL57l/vUAusG3HRkRFHj1Sr4m0A+s6IllO901\n27BmV5dzd+4BqreMl7D+AsjfWKoTYMw+S0e4gdxc+QKBgQD3UVW07RfJWzb4Uego\n9nLVgDIzka+K0+SFQHF45gULjW2Qdi4QR/aQN0lEW5Imk3XDd9dUJINmUCGc908B\nSfuPr33b48TPYpJPc8T56HMY+5jX3lK3USnN3/c4OgbLEBIv6cu7Rp/9aQBvAd8/\n6de6vDoTD+HhhVe/w/IchQRpTwKBgQC16Zm+JSksPB+XvjGe1ZGmMvn68/MzpxmU\nyteAiHQ5Hxdy0rgUQ79ludno0drjulPG06ZXyvqW4tycaOKFoLfceuDlHiRgKUDW\nNDOFxpnyZ6X+gczyWD5h5cnyYZ8m7dIkuqRVG5Y6kNeztdHPfxzUkG4UyB1PuMn0\nOILZgLWbTwKBgBcxd3oqKermNPeApucAhbBj/1E6vl2klW+xpXKTD7IPp1C+5H7+\nYK8RoDta4w/fEFIucPEhI3l61kwkHTKfv4mwCXuPlqtkMRhmYPiWxgR3w9Oqs9Mh\nN2xpLoQFXRG6BhqcMFD1xJc9O58ta8RQp7yJXmDfQm2l1Z7UP2ZRSyKdAoGBALV/\nA0imNOUQe4jfVwydErtagvTx7kUrxCcjFk4EVskjDzcdrFFzooOxIQvcTOMG5U0r\nn/xZ5Rkj8W4Qa2ldh/PvmXCfWTWkEy9kV79x/ejPpts90Cg/CMaOCKXO5oZlo1PH\n7+uGIaX/G2cO0e2PaklebKZJXo1K1hvXQh4V/5ubAoGAT5dBJlMpfuuRMnjVLYEr\nqu0V2hyY+el2pgW/WX3/udcAzfNFn1pjm7qPMrEwQItJBfqOd3tmhAb9QGUamdpy\nhg0qMs7ae6wunUrkGr71b0P5/DIY4YBeNd0NEbcGO24R6by4iuX+QNelZOG28pYx\n4zvWL71kW+e7c+1bsZ2zodo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-speech-to-text-sa@seraphic-port-272323.iam.gserviceaccount.com",
+  "client_id": "103096456184161288331",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-speech-to-text-sa%40seraphic-port-272323.iam.gserviceaccount.com"
+}
+
+
